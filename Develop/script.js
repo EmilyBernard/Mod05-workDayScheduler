@@ -4,6 +4,9 @@ $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 
 
+
+
+
 /*
 var handleFormSubmit = function (event) {
     event.preventDefault();

@@ -30,16 +30,30 @@
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
-      <ul type="none">
-        <li>9 am</li>
-        <li>10 am</li>
-        <li>11 am</li>
-        <li>12 pm</li>
-        <li>1 pm</li>
-        <li>2 pm</li>
-        <li>3 pm</li>
-        <li>4 pm</li>
-        <li>5 pm</li>
+      <ul type="none" class="time-block">
+        <div class="row">
+          <div class="col-2 time-block hour" id="9">9am</div>
+          <div class="col-8 time-slot">
+            <textarea
+              id="hr9"
+              class="calendar-item"
+              rows="2"
+              cols="50"
+            ></textarea>
+          </div>
+          <div class="col-2 saveBtn">
+            <button id="9am" class="btn btn-secondary">Save</button>
+          </div>
+        </div>
+        <li id="hr9">9 am</li>
+        <li id="hr10">10 am</li>
+        <li id="hr11">11 am</li>
+        <li id="hr12">12 pm</li>
+        <li id="hr1">1 pm</li>
+        <li id="hr2">2 pm</li>
+        <li id="hr3">3 pm</li>
+        <li id="hr4">4 pm</li>
+        <li id="hr5">5 pm</li>
       </ul>  
       
     </div>

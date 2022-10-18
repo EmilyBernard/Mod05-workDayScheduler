@@ -2,7 +2,7 @@
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
-//create event for save button to add input to local storage and retrieve when refreshed
+//create event for save button to add input to local storage 
 $(".saveBtn").on("click", function (event) {
   var calendarItem =
     event.target.parentElement.previousElementSibling.children[0].value;

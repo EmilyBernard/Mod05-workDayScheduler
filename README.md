@@ -16,10 +16,13 @@ Submitted for evaluation.
 
 # Installation
 Used original HTML and style.css files from assignment.
-Used Javascript to 
+Used the labels in CSS file to create time-block coding in HTML.
+Used HTML coding to create columns within each time row.
 
 
 # Usage
+Users can enter hourly activities and save.
+Users can visually see which time rows have already passed, are happening now, or are in the future by the color-coding.
 
 
 # Original Assignment Criteria
@@ -38,7 +41,7 @@ WHEN I refresh the page
 THEN the saved events persist
 
 # Roadmap
-
+This is a basic daily work-hour schedule.  This could be developed to include more features, like autofill, alerts for upcoming events, etc.
 
 # Authors and acknowledgement
 

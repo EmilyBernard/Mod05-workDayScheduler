@@ -4,9 +4,18 @@ $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 
 
-
-
-
+/*
+var handleFormSubmit = function (event) {
+    event.preventDefault();
+  
+    var nameInput = nameInputEl.val();
+    var dateInput = dateInputEl.val();
+    */
+  
+   /* if (!nameInput || !dateInput) {
+      console.log('You need to fill out the form!');
+      return;
+    }*/
 
 /*reference code from 05-Activities-02-jquery
 // TODO: Select the existing DOM element, <div id="root">, and assign to a new variable

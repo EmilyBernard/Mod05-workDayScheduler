@@ -11,12 +11,16 @@ $(".saveBtn").on("click", function (event) {
   console.log(calendarItem);
 });
 
-/*
+//Need to test code below, make sure user input saving when refreshed
+
 $(document).ready(function () {
   if (localStorage["9am"] !== null && localStorage["9am"] !== undefined) {
     var nineAm = $("<p>" + localStorage["9am"] + "</p>");
-    $("#nineAm").append(nineAm[0].innerText);
+    $("#hr9").append(nineAm[0].innerText);
   } else {
     ("");
-  })
-  */
+  }
+});
+  
+
+  //Need to code for past, present, future hour blocks to iclude the set colors in CSS

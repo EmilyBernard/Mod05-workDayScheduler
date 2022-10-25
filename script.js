@@ -2,7 +2,7 @@
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
-//code for past, present, future hour blocks to iclude the set colors in CSS
+//code for past, present, future hour blocks to include the set colors in CSS
 
 var timeBlock = $(".hour");
 var now = parseInt(moment().format("H"));
@@ -18,7 +18,7 @@ $.each(timeBlock, function (i, hour) {
   }
 });
 
-//create event for save button to add input to local storage 
+//create event for save button to add user input to local storage 
 $(".saveBtn").on("click", function (event) {
   var calendarItem =
     event.target.parentElement.previousElementSibling.children[0].value;

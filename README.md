@@ -9,10 +9,10 @@ CSS file set-up with basic styling.
 Submitted for evaluation.
 
 # Project Deployed
-
+https://emilybernard.github.io/Mod05-workdayScheduler/
 
 # Screenshot of webpage
-
+weeklyChallenges/Mod05-workdayScheduler/workDaySched Screen Shot .png
 
 # Installation
 Used original HTML and style.css files from assignment.
@@ -22,7 +22,7 @@ Used HTML coding to create columns within each time row.
 
 # Usage
 Users can enter hourly activities and save.
-Users can visually see which time rows have already passed, are happening now, or are in the future by the color-coding.
+Users can visually see which time rows have already passed, are happening now, or are in the future through color-coding.
 
 
 # Original Assignment Criteria

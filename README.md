@@ -44,6 +44,7 @@ THEN the saved events persist
 This is a basic daily work-hour schedule.  This could be developed to include more features, like autofill, alerts for upcoming events, etc.
 
 # Authors and acknowledgement
-
+Referenced week 5 activities: 02, 25
+Referenced work by Emily Wertz (ewirtz3)
 
 

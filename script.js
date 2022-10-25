@@ -2,6 +2,22 @@
 var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
+//code for past, present, future hour blocks to iclude the set colors in CSS
+
+var timeBlock = $(".hour");
+var now = parseInt(moment().format("H"));
+
+$.each(timeBlock, function (i, hour) {
+  var hourId = parseInt($(this).attr("id"));
+  if (hourId === now) {
+    $(this).next().addClass("present");
+  } else if (hourId < now) {
+    $(this).next().addClass("past");
+  } else if (hourId > now) {
+    $(this).next().addClass("future");
+  }
+});
+
 //create event for save button to add input to local storage 
 $(".saveBtn").on("click", function (event) {
   var calendarItem =
@@ -11,7 +27,7 @@ $(".saveBtn").on("click", function (event) {
   console.log(calendarItem);
 });
 
-
+//time-block code for local storage when save btn clicked
 
 $(document).ready(function () {
   if (localStorage["9am"] !== null && localStorage["9am"] !== undefined) {
@@ -71,4 +87,3 @@ $(document).ready(function () {
 });
   
 
-  //Need to code for past, present, future hour blocks to iclude the set colors in CSS

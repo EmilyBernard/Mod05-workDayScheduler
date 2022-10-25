@@ -12,7 +12,8 @@ Submitted for evaluation.
 https://emilybernard.github.io/Mod05-workdayScheduler/
 
 # Screenshot of webpage
-weeklyChallenges/Mod05-workdayScheduler/workDaySched Screen Shot .png
+<img src="workDaySchedScreenShot.png" alt="Website Screenshot">
+
 
 # Installation
 Used original HTML and style.css files from assignment.
